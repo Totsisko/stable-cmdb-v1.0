@@ -1,0 +1,74 @@
+/* AdminDashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    background-color: #7F6244;
+  }
+  
+  .dashboard-container h1 {
+    text-align: center;
+    color: #967654;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #7F6244;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #7F6244;
+  }
+  
+  .appointment-list {
+    margin-top: 20px;
+  }
+  
+  .appointment-list h2 {
+    color: #333;
+  }
+  
+  .appointment-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .appointment-list li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-list button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .confirm-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #7F6244;
+    background-color: #fff;
+  }
+  
+  .deny-button {
+    background-color: #fff;
+    color: #7F6244;
+  }
+  
+  .no-appointments {
+    text-align: center;
+    color: #666;
+  }
+  

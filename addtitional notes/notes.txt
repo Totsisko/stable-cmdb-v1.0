@@ -1,0 +1,18 @@
+sa sulod sang admin dashboard
+-mayara button for create account for user
+	1. sa sulod sang create account, mayara input for personal informations
+	-First Name
+	-Middle Name
+	-Last Name
+	-Contact Number
+	-si admin dayun mabutang sang password for users (except parishioner)
+	-Address
+	
+	2. View Date
+	-include nana ang event sa muna nga date
+
+UNA NI SA NUMBER 1	3. May manage account, para ni sa mag edit, delete, or deactivate sang account.
+
+- add manual send notification to user except parishioner
+
+confirmed appointment, pending appointment, denied appointment

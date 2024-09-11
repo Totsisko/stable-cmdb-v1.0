@@ -1,0 +1,39 @@
+User accounts:
+
+1. Admin- admin@gmail.com admin@gmail.com
+
+2. Parishioner- sss@gmail.com       SSS123
+
+3. Priest- priest1@gmail.com priest1@gmail.com
+
+4. Altar Server- qwe@gmail.com    qwe@gmail.com	
+
+5. Altar Server President- altarservpres1@gmail.com altarservpres1@gmail.com
+
+
+
+
+
+Progress of Project
+
+
+- logout guba pa on all dapat ga connect sa HomePage and not login alone. -- OKAY NA DONEEEEE
+
+
+1.  Admin: NOT YET DONE
+- wla pa manage accounts ( wla pa ga gwa ang accounts sa screen - need mo ifetch from firestore to screen)
+
+
+
+2. Altar Server President:
+- taga check in and check out - - OKAY NA DONEEEEE
+
+table
+full name - role( altar server only) - check in - check out 
+(GUBA PA ang rules indi pa mag fetch) - OKAY NA DONEEEEE
+
+
+
+
+3. Altar Server:
+- maka view schedule and then check in and checkout - - OKAY NA DONEEEEE

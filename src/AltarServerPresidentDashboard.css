@@ -1,0 +1,62 @@
+/* Animation for the dashboard container */
+.dashboard-container {
+    padding: 20px;
+    background-color: #EFDECD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animation for table rows */
+  .attendance-table tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  .attendance-table tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.01);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Add some hover effects to table cells */
+  .attendance-table td {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .attendance-table td:hover {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  
+  /* Highlight header on load */
+  .attendance-table th {
+    animation: highlightHeader 1.5s ease-in-out;
+  }
+  
+  @keyframes highlightHeader {
+    0% {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    50% {
+      background-color: #e0e0e0;
+      color: #000;
+    }
+    100% {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+  }
+  

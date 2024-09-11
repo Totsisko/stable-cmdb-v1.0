@@ -1,0 +1,101 @@
+/* Modal background */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Hidden initially */
+    pointer-events: none; /* Disable pointer events when hidden */
+    transition: opacity 0.3s ease, pointer-events 0s ease 0.3s; /* Fade in */
+  }
+  
+  /* Show modal when active */
+  .modal.active {
+    opacity: 1;
+    pointer-events: auto; /* Enable pointer events when visible */
+    transition: opacity 0.3s ease; /* Fade in */
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    transform: translateY(-50px); /* Slide in effect */
+    opacity: 0; /* Hidden initially */
+    animation: slideIn 0.5s ease forwards; /* Slide in animation */
+  }
+  
+  /* Slide-in effect */
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Close button */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  
+  /* Close button hover effect */
+  .close:hover {
+    transform: scale(1.2);
+    color: #ff0000; /* Optional color change on hover */
+  }
+  
+  /* Altar server table */
+  .altar-server-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease; /* Table fade-in animation */
+  }
+  
+  /* Table fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .altar-server-table th,
+  .altar-server-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .altar-server-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .altar-server-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .altar-server-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
